@@ -1,1 +1,0 @@
-/* * C program to find the square root of a number using pow function */#include <stdio.h>int main(){    double n;    printf("Enter number: ");    scanf("%lf",&n);     // Calling power function with power 0.5    double square_root=pow(n,0.5);     //Precision upto 2 decimal places    printf("Number is %0.2lf and its square root is: %0.2lf",n,sqrt(n));     return 0;}
