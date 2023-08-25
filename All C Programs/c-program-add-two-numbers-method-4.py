@@ -1,0 +1,1 @@
+/* * C program to add float values using add operator */ #include <stdio.h> int main(){    float a,b;    printf("Enter Two Numbers: ");     //Input Two Numbers    scanf("%f %f",&a,&b);    float sum=a+b;     //print sum upto 2 decimal places    printf("Sum of %0.2f and %0.2f is: %0.2f ",a,b,sum);     return 0;}

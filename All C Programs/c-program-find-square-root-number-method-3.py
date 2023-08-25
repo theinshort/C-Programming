@@ -1,0 +1,1 @@
+/* * C program to find the square root of a number using log values */#include <stdio.h>int main(){    double n;    printf("Enter number: ");    scanf("%lf",&n);     //Finding sqrt using the found formula    double square_root=pow(2,0.5*log(n));     //Precision upto 2 decimal places    printf("Number is %0.2lf and its square root is: %0.2lf",n,sqrt(n));     return 0;}

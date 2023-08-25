@@ -1,0 +1,1 @@
+/* * C Program to find the ascii value of a character */ #include <stdio.h> int main(){    char ch;    printf("Enter Character: ");    scanf("%c",&ch);     //Type Casting character to int    int ascii = (int)ch;    printf("Ascii Value of %c is %d",ch,ascii);    return 0;}
